@@ -1,0 +1,14 @@
+xcodeproj '/Users/wangnaiyu/AppWorksHackathon/PlanB/PlanB.xcodeproj'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+platform :ios, ‘9.0’
+
+target ‘PlanB’ do
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'Toast-Swift', '~> 2.0.0'
+    pod 'M13Checkbox', '~> 2.2.0'
+    pod 'Cosmos'
+    pod 'Alamofire', '~> 4.3.0'
+
+end
