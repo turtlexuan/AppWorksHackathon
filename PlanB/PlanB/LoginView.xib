@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="PlanB" customModuleProvider="target">
+            <connections>
+                <outlet property="bLabel" destination="wUG-fW-P8d" id="m5Q-ie-HNp"/>
+                <outlet property="loginButton" destination="76A-rt-MaJ" id="Wly-gc-QMX"/>
+                <outlet property="logoImage" destination="n4Z-mm-a48" id="Bwu-wg-QiF"/>
+                <outlet property="planLabel" destination="lMH-Su-iIE" id="Jmw-b7-Ogz"/>
+                <outlet property="sloganLabel" destination="7Us-vt-whP" id="Edf-52-OkT"/>
+                <outlet property="view" destination="qtg-7g-IHN" id="ThQ-xa-cdl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qtg-7g-IHN">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMH-Su-iIE">
+                    <rect key="frame" x="98.5" y="274" width="129" height="69.5"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="60"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUG-fW-P8d">
+                    <rect key="frame" x="242.5" y="274" width="42" height="69.5"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="60"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Us-vt-whP">
+                    <rect key="frame" x="57.5" y="393.5" width="261.5" height="46.5"/>
+                    <attributedString key="attributedText">
+                        <fragment content="There  is  always  a  plan  B, but  you  don't  know  it.">
+                            <attributes>
+                                <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlanBLogo" translatesAutoresizingMaskIntoConstraints="NO" id="n4Z-mm-a48">
+                    <rect key="frame" x="132" y="152" width="112.5" height="112"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="n4Z-mm-a48" secondAttribute="height" multiplier="1:1" id="gMF-Xg-9c5"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76A-rt-MaJ">
+                    <rect key="frame" x="85" y="374" width="206.5" height="69.5"/>
+                    <color key="backgroundColor" red="0.28627450980392155" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Facebook Login"/>
+                    <connections>
+                        <action selector="login:" destination="-1" eventType="touchUpInside" id="tR5-Ek-D03"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lMH-Su-iIE" firstAttribute="centerX" secondItem="qtg-7g-IHN" secondAttribute="centerX" constant="-25" id="04s-hk-X3F"/>
+                <constraint firstItem="76A-rt-MaJ" firstAttribute="width" secondItem="qtg-7g-IHN" secondAttribute="width" multiplier="0.55" id="1EI-CO-SfX"/>
+                <constraint firstItem="76A-rt-MaJ" firstAttribute="top" secondItem="lMH-Su-iIE" secondAttribute="top" constant="100" id="41g-T5-VS5"/>
+                <constraint firstItem="lMH-Su-iIE" firstAttribute="top" secondItem="n4Z-mm-a48" secondAttribute="bottom" constant="10" id="HXJ-Wm-t8c"/>
+                <constraint firstItem="76A-rt-MaJ" firstAttribute="height" secondItem="lMH-Su-iIE" secondAttribute="height" id="NUN-8w-chF"/>
+                <constraint firstItem="wUG-fW-P8d" firstAttribute="centerY" secondItem="qtg-7g-IHN" secondAttribute="centerY" constant="-25" id="Q11-0q-RMp"/>
+                <constraint firstItem="7Us-vt-whP" firstAttribute="top" secondItem="lMH-Su-iIE" secondAttribute="bottom" constant="50" id="Z5B-Ah-7gc"/>
+                <constraint firstItem="wUG-fW-P8d" firstAttribute="leading" secondItem="lMH-Su-iIE" secondAttribute="trailing" constant="15" id="Zam-jk-tG5"/>
+                <constraint firstItem="76A-rt-MaJ" firstAttribute="centerX" secondItem="qtg-7g-IHN" secondAttribute="centerX" id="Zmq-vW-jL0"/>
+                <constraint firstItem="n4Z-mm-a48" firstAttribute="width" secondItem="qtg-7g-IHN" secondAttribute="width" multiplier="0.3" id="dAo-Cb-Jzi"/>
+                <constraint firstItem="7Us-vt-whP" firstAttribute="centerX" secondItem="qtg-7g-IHN" secondAttribute="centerX" id="e2T-yh-BAe"/>
+                <constraint firstItem="n4Z-mm-a48" firstAttribute="centerX" secondItem="qtg-7g-IHN" secondAttribute="centerX" id="eNB-0r-U3z"/>
+                <constraint firstItem="lMH-Su-iIE" firstAttribute="centerY" secondItem="qtg-7g-IHN" secondAttribute="centerY" constant="-25" id="yph-r9-wRc"/>
+            </constraints>
+            <point key="canvasLocation" x="-76.5" y="13.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PlanBLogo" width="512" height="512"/>
+    </resources>
+</document>
