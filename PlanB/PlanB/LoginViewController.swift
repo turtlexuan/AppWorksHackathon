@@ -48,8 +48,8 @@ class LoginViewController: UIViewController {
 //            switch result {
         
 //            case true:
-                self.performSegue(withIdentifier: "enterMainPage", sender: self)
-                
+        let navigationController = UINavigationController(rootViewController: MyActivityViewController())
+        self.present(navigationController, animated: true, completion: nil)
 //            case false:
                 //error handling required//
 //                print("LoginVC - failed")

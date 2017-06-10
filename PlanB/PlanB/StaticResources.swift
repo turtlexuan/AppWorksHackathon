@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct Constants {
+    
+    static let facebookId = "FB_Fake"
+    static let appName = "Plan B"
+    static let baseUrlStr = "https://url/v1/"
+    
+}
