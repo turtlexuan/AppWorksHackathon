@@ -17,6 +17,9 @@
 		27166B541EEBC47E00418212 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B531EEBC47E00418212 /* User.swift */; };
 		27166B561EEBD9CB00418212 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B551EEBD9CB00418212 /* LoginViewController.swift */; };
 		27166B581EEBDCAA00418212 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B571EEBDCAA00418212 /* ActivityTableViewController.swift */; };
+		27166B5C1EEBE88A00418212 /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B5B1EEBE88A00418212 /* LaunchView.xib */; };
+		27166B5E1EEBF1F600418212 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B5D1EEBF1F600418212 /* LoginView.xib */; };
+		27166B621EEC1AFE00418212 /* MyActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B611EEC1AFE00418212 /* MyActivityView.xib */; };
 		8353BEE6F286880E76D6BFAA /* Pods_PlanB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D439583ADB73006DB688AF2 /* Pods_PlanB.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,9 @@
 		27166B531EEBC47E00418212 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		27166B551EEBD9CB00418212 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		27166B571EEBDCAA00418212 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		27166B5B1EEBE88A00418212 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
+		27166B5D1EEBF1F600418212 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		27166B611EEC1AFE00418212 /* MyActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyActivityView.xib; sourceTree = "<group>"; };
 		5D439583ADB73006DB688AF2 /* Pods_PlanB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8928074F42D9D0277CD2378E /* Pods-PlanB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F9F0B52C1D231350B54624 /* Pods-PlanB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,9 +77,12 @@
 		27166B3B1EEBA3D200418212 /* PlanB */ = {
 			isa = PBXGroup;
 			children = (
+				27166B5B1EEBE88A00418212 /* LaunchView.xib */,
+				27166B5D1EEBF1F600418212 /* LoginView.xib */,
 				27166B511EEBC43800418212 /* LoginManager.swift */,
 				27166B531EEBC47E00418212 /* User.swift */,
 				27166B551EEBD9CB00418212 /* LoginViewController.swift */,
+				27166B611EEC1AFE00418212 /* MyActivityView.xib */,
 				27166B571EEBDCAA00418212 /* ActivityTableViewController.swift */,
 				27166B3C1EEBA3D200418212 /* AppDelegate.swift */,
 				27166B3E1EEBA3D200418212 /* ViewController.swift */,
@@ -167,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27166B4A1EEBA3D200418212 /* LaunchScreen.storyboard in Resources */,
+				27166B5C1EEBE88A00418212 /* LaunchView.xib in Resources */,
 				27166B471EEBA3D200418212 /* Assets.xcassets in Resources */,
+				27166B5E1EEBF1F600418212 /* LoginView.xib in Resources */,
 				27166B421EEBA3D200418212 /* Main.storyboard in Resources */,
+				27166B621EEC1AFE00418212 /* MyActivityView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
