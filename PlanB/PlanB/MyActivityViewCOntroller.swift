@@ -19,12 +19,15 @@ class MyActivityTabelViewCell: UITableViewCell {
     @IBOutlet weak var topVIew: UIView!
     @IBOutlet weak var timeView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var monthLabel: UILabel!
+    @IBOutlet weak var bigView: UIView!
     
 }
 
 class MyActivityViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var addEventButton: UIButton!
     
     let eventManager = EventManager.shared
     var activities: [[String : Any]] = []
@@ -33,20 +36,24 @@ class MyActivityViewController: UIViewController, UITableViewDelegate, UITableVi
         
         super.viewDidLoad()
         
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.tableView.register(UINib(nibName: "MyActivityTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         self.title = Constants.appName
         
         //test
         let activity: [String : Any] = ["activity_id": 1, "title": "一日遊", "type":"爬山", "description": "yaaaaa", "actDate": "20170611", "actPlace": "基隆路一段"]
+        self.activities.append(activity)
         
-        self.eventManager.getMyActivity(success: { value in
-            
-            self.activities = value
-            self.tableView.reloadData()
-            
-        }, failed: {
-        
-            //Annoying pop up card//
-        })
+//        self.eventManager.getMyActivity(success: { value in
+//            
+//            self.activities = value
+//            self.tableView.reloadData()
+//            
+//        }, failed: {
+//        
+//            //Annoying pop up card//
+//        })
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,12 +69,11 @@ class MyActivityViewController: UIViewController, UITableViewDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! MyActivityTabelViewCell
+        let cell: MyActivityTabelViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyActivityTabelViewCell
         
         cell.topVIew.layer.cornerRadius = cell.topVIew.bounds.width / 2
-        cell.timeView.layer.cornerRadius = 10
-        cell.timeView.layer.borderWidth = 1
-        cell.timeView.layer.borderColor = UIColor.darkGray.cgColor
+        cell.timeView.layer.cornerRadius = 8
+        cell.bigView.layer.cornerRadius = 10
         
         cell.tagLabel.text = self.activities[indexPath.row]["type"] as? String ?? "----"
         cell.locationLabel.text = self.activities[indexPath.row]["actPlace"] as? String ?? "----"
@@ -79,18 +85,16 @@ class MyActivityViewController: UIViewController, UITableViewDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        
+        self.tableView.deselectRow(at: indexPath, animated: true)
+        
         let detailsVC = UIViewController(nibName: "ActivityDetailsViewController", bundle: nil) as! ActivityDetailsViewController
         
         navigationController?.pushViewController(detailsVC, animated: true)
     }
     
+    @IBAction func addEvent(_ sender: UIButton) {
     
     
-    
-    
-    
-    
-    
-    
-    
+    }
 }

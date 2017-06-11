@@ -38,7 +38,7 @@ struct EventModel {
         self.eventLatitude = eventLatitude
         self.eventLongitude = eventLongitude
         self.tags = tags
-
+        self.user_id = user_id
     }
 
 }

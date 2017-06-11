@@ -10,6 +10,8 @@ import UIKit
 
 class ActivityDetailsViewController: UIViewController {
 
+    var details: [String : Any] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
