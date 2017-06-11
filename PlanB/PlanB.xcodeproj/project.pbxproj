@@ -28,6 +28,7 @@
 		27166B741EEC5BC800418212 /* MyActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B731EEC5BC800418212 /* MyActivityTableViewCell.xib */; };
 		27166B761EEC673D00418212 /* ActivityDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B751EEC673D00418212 /* ActivityDetailsViewController.xib */; };
 		27166B781EEC675600418212 /* ActivityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B771EEC675600418212 /* ActivityDetailsViewController.swift */; };
+		27166B7A1EECD31A00418212 /* CreateEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B791EECD31A00418212 /* CreateEventTableViewCell.swift */; };
 		8353BEE6F286880E76D6BFAA /* Pods_PlanB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D439583ADB73006DB688AF2 /* Pods_PlanB.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		27166B731EEC5BC800418212 /* MyActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyActivityTableViewCell.xib; sourceTree = "<group>"; };
 		27166B751EEC673D00418212 /* ActivityDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityDetailsViewController.xib; sourceTree = "<group>"; };
 		27166B771EEC675600418212 /* ActivityDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailsViewController.swift; sourceTree = "<group>"; };
+		27166B791EECD31A00418212 /* CreateEventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventTableViewCell.swift; sourceTree = "<group>"; };
 		5D439583ADB73006DB688AF2 /* Pods_PlanB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8928074F42D9D0277CD2378E /* Pods-PlanB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F9F0B52C1D231350B54624 /* Pods-PlanB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				27166B711EEC57D900418212 /* MyActivityViewController.xib */,
 				27166B731EEC5BC800418212 /* MyActivityTableViewCell.xib */,
 				27166B6D1EEC2A7800418212 /* MyActivityViewCOntroller.swift */,
+				27166B791EECD31A00418212 /* CreateEventTableViewCell.swift */,
 				27166B751EEC673D00418212 /* ActivityDetailsViewController.xib */,
 				27166B771EEC675600418212 /* ActivityDetailsViewController.swift */,
 				27166B3C1EEBA3D200418212 /* AppDelegate.swift */,
@@ -269,6 +272,7 @@
 				27166B681EEC23D000418212 /* CreateEventController.swift in Sources */,
 				27166B661EEC23BB00418212 /* EventManager.swift in Sources */,
 				27166B6C1EEC267600418212 /* StaticResources.swift in Sources */,
+				27166B7A1EECD31A00418212 /* CreateEventTableViewCell.swift in Sources */,
 				27166B6E1EEC2A7800418212 /* MyActivityViewCOntroller.swift in Sources */,
 				27166B781EEC675600418212 /* ActivityDetailsViewController.swift in Sources */,
 				27166B561EEBD9CB00418212 /* LoginViewController.swift in Sources */,

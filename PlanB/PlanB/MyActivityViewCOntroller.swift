@@ -16,6 +16,10 @@ class MyActivityTabelViewCell: UITableViewCell {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var topVIew: UIView!
+    @IBOutlet weak var timeView: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
 }
 
 class MyActivityViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -30,6 +34,9 @@ class MyActivityViewController: UIViewController, UITableViewDelegate, UITableVi
         super.viewDidLoad()
         
         self.title = Constants.appName
+        
+        //test
+        let activity: [String : Any] = ["activity_id": 1, "title": "一日遊", "type":"爬山", "description": "yaaaaa", "actDate": "20170611", "actPlace": "基隆路一段"]
         
         self.eventManager.getMyActivity(success: { value in
             
@@ -56,6 +63,12 @@ class MyActivityViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         var cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! MyActivityTabelViewCell
+        
+        cell.topVIew.layer.cornerRadius = cell.topVIew.bounds.width / 2
+        cell.timeView.layer.cornerRadius = 10
+        cell.timeView.layer.borderWidth = 1
+        cell.timeView.layer.borderColor = UIColor.darkGray.cgColor
+        
         cell.tagLabel.text = self.activities[indexPath.row]["type"] as? String ?? "----"
         cell.locationLabel.text = self.activities[indexPath.row]["actPlace"] as? String ?? "----"
         cell.descriptionLabel.text = self.activities[indexPath.row]["description"] as? String ?? "----"
