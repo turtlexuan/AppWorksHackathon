@@ -16,15 +16,19 @@
 		27166B521EEBC43800418212 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B511EEBC43800418212 /* LoginManager.swift */; };
 		27166B541EEBC47E00418212 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B531EEBC47E00418212 /* User.swift */; };
 		27166B561EEBD9CB00418212 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B551EEBD9CB00418212 /* LoginViewController.swift */; };
-		27166B581EEBDCAA00418212 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B571EEBDCAA00418212 /* ActivityTableViewController.swift */; };
 		27166B5C1EEBE88A00418212 /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B5B1EEBE88A00418212 /* LaunchView.xib */; };
 		27166B5E1EEBF1F600418212 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B5D1EEBF1F600418212 /* LoginView.xib */; };
-		27166B621EEC1AFE00418212 /* MyActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B611EEC1AFE00418212 /* MyActivityView.xib */; };
 		27166B641EEC23AB00418212 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B631EEC23AB00418212 /* EventModel.swift */; };
 		27166B661EEC23BB00418212 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B651EEC23BB00418212 /* EventManager.swift */; };
 		27166B681EEC23D000418212 /* CreateEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B671EEC23D000418212 /* CreateEventTableViewController.swift */; };
 		27166B6A1EEC23F300418212 /* CreateEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B691EEC23F300418212 /* CreateEventViewController.xib */; };
 		27166B6C1EEC267600418212 /* StaticResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B6B1EEC267600418212 /* StaticResources.swift */; };
+		27166B6E1EEC2A7800418212 /* MyActivityViewCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B6D1EEC2A7800418212 /* MyActivityViewCOntroller.swift */; };
+		27166B721EEC57D900418212 /* MyActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B711EEC57D900418212 /* MyActivityViewController.xib */; };
+		27166B741EEC5BC800418212 /* MyActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B731EEC5BC800418212 /* MyActivityTableViewCell.xib */; };
+		27166B761EEC673D00418212 /* ActivityDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27166B751EEC673D00418212 /* ActivityDetailsViewController.xib */; };
+		27166B781EEC675600418212 /* ActivityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B771EEC675600418212 /* ActivityDetailsViewController.swift */; };
+		27166B7A1EECD31A00418212 /* CreateEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27166B791EECD31A00418212 /* CreateEventTableViewCell.swift */; };
 		8353BEE6F286880E76D6BFAA /* Pods_PlanB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D439583ADB73006DB688AF2 /* Pods_PlanB.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,15 +44,19 @@
 		27166B511EEBC43800418212 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		27166B531EEBC47E00418212 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		27166B551EEBD9CB00418212 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		27166B571EEBDCAA00418212 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
 		27166B5B1EEBE88A00418212 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
 		27166B5D1EEBF1F600418212 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
-		27166B611EEC1AFE00418212 /* MyActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyActivityView.xib; sourceTree = "<group>"; };
 		27166B631EEC23AB00418212 /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		27166B651EEC23BB00418212 /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
 		27166B671EEC23D000418212 /* CreateEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventTableViewController.swift; sourceTree = "<group>"; };
 		27166B691EEC23F300418212 /* CreateEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateEventViewController.xib; sourceTree = "<group>"; };
 		27166B6B1EEC267600418212 /* StaticResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticResources.swift; sourceTree = "<group>"; };
+		27166B6D1EEC2A7800418212 /* MyActivityViewCOntroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyActivityViewCOntroller.swift; sourceTree = "<group>"; };
+		27166B711EEC57D900418212 /* MyActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyActivityViewController.xib; sourceTree = "<group>"; };
+		27166B731EEC5BC800418212 /* MyActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyActivityTableViewCell.xib; sourceTree = "<group>"; };
+		27166B751EEC673D00418212 /* ActivityDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityDetailsViewController.xib; sourceTree = "<group>"; };
+		27166B771EEC675600418212 /* ActivityDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailsViewController.swift; sourceTree = "<group>"; };
+		27166B791EECD31A00418212 /* CreateEventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventTableViewCell.swift; sourceTree = "<group>"; };
 		5D439583ADB73006DB688AF2 /* Pods_PlanB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8928074F42D9D0277CD2378E /* Pods-PlanB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F9F0B52C1D231350B54624 /* Pods-PlanB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,8 +100,12 @@
 				27166B511EEBC43800418212 /* LoginManager.swift */,
 				27166B531EEBC47E00418212 /* User.swift */,
 				27166B551EEBD9CB00418212 /* LoginViewController.swift */,
-				27166B611EEC1AFE00418212 /* MyActivityView.xib */,
-				27166B571EEBDCAA00418212 /* ActivityTableViewController.swift */,
+				27166B711EEC57D900418212 /* MyActivityViewController.xib */,
+				27166B731EEC5BC800418212 /* MyActivityTableViewCell.xib */,
+				27166B6D1EEC2A7800418212 /* MyActivityViewCOntroller.swift */,
+				27166B791EECD31A00418212 /* CreateEventTableViewCell.swift */,
+				27166B751EEC673D00418212 /* ActivityDetailsViewController.xib */,
+				27166B771EEC675600418212 /* ActivityDetailsViewController.swift */,
 				27166B3C1EEBA3D200418212 /* AppDelegate.swift */,
 				27166B3E1EEBA3D200418212 /* ViewController.swift */,
 				27166B631EEC23AB00418212 /* EventModel.swift */,
@@ -191,11 +203,13 @@
 			files = (
 				27166B6A1EEC23F300418212 /* CreateEventViewController.xib in Resources */,
 				27166B4A1EEBA3D200418212 /* LaunchScreen.storyboard in Resources */,
+				27166B741EEC5BC800418212 /* MyActivityTableViewCell.xib in Resources */,
+				27166B761EEC673D00418212 /* ActivityDetailsViewController.xib in Resources */,
 				27166B5C1EEBE88A00418212 /* LaunchView.xib in Resources */,
 				27166B471EEBA3D200418212 /* Assets.xcassets in Resources */,
 				27166B5E1EEBF1F600418212 /* LoginView.xib in Resources */,
 				27166B421EEBA3D200418212 /* Main.storyboard in Resources */,
-				27166B621EEC1AFE00418212 /* MyActivityView.xib in Resources */,
+				27166B721EEC57D900418212 /* MyActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +271,14 @@
 				27166B681EEC23D000418212 /* CreateEventTableViewController.swift in Sources */,
 				27166B661EEC23BB00418212 /* EventManager.swift in Sources */,
 				27166B6C1EEC267600418212 /* StaticResources.swift in Sources */,
+				27166B7A1EECD31A00418212 /* CreateEventTableViewCell.swift in Sources */,
+				27166B6E1EEC2A7800418212 /* MyActivityViewCOntroller.swift in Sources */,
+				27166B781EEC675600418212 /* ActivityDetailsViewController.swift in Sources */,
 				27166B561EEBD9CB00418212 /* LoginViewController.swift in Sources */,
 				27166B451EEBA3D200418212 /* PlanB.xcdatamodeld in Sources */,
 				27166B521EEBC43800418212 /* LoginManager.swift in Sources */,
 				27166B3F1EEBA3D200418212 /* ViewController.swift in Sources */,
 				27166B541EEBC47E00418212 /* User.swift in Sources */,
-				27166B581EEBDCAA00418212 /* ActivityTableViewController.swift in Sources */,
 				27166B641EEC23AB00418212 /* EventModel.swift in Sources */,
 				27166B3D1EEBA3D200418212 /* AppDelegate.swift in Sources */,
 			);
